@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(241, 126, 207);
+            color: azure;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 30px;
+
+        }
+        .input{
+            
+            width: 300px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .titel{
+            width: 150px;
+            height: 60px;
+            border-radius: 10px;
+            
+        }
+        .first{
+            width: 400px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+        
+
+        .Initials{ width: 250px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: 20px;
+            
+           
+
+
+        }
+        .middel{
+
+            width: 400px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: 155px;   
+        }
+      .last{width: 400px;
+            height: 60px;
+            border-radius: 10px;
+            
+
+      }  
+      h2{
+        margin-left: 170px;
+      }
+      .birth{
+        width: 950px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: 150px;
+
+      }
+      .Phone{
+        width: 950px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: -20px;
+            
+
+      }
+      .Home-add{
+        width: 950px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: -20px;
+            
+
+      }
+      .City{ width: 450px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: -20px;
+        }
+
+            .State{ width: 450px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: -20px;
+        }
+        .Zip-Code{ width: 450px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: -20px;
+        }
+        .Country{ width: 450px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: -20px;
+        }
+        .Email{
+        width: 950px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: -20px;
+            
+
+      }
+      .gander{
+        display: flex;
+
+
+      }
+
+      .select{
+
+width: auto;
+height: auto;
+}
+.family{ width: 450px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: 150px;
+        }
+        .name{ width: 450px;
+            height: 60px;
+            border-radius: 10px;
+            
+        }
+           
+            
+        
+        .free{
+            display: flex;
+        }
+
+               .for-1{
+
+            margin-left: 150px;
+            width: 950px;
+            height: 60px;
+            border-radius: 10px;
+        }
+
+        .for-2{
+
+margin-left: 150px;
+width: 950px;
+height: 60px;
+border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    
+    <form action=""></form>
+    <div class="info-tag">
+<h1>Collage Application form</h1>
+
+<P>Please fill in the collage Application form below if you want to attend our institution Thank you! </P>
+<hr>
+<h2>Name</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="">Titel</label>&nbsp;&nbsp;
+<input class="titel" type="text" placeholder="titel" required autofocus > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input class="first" type="text" placeholder="First" required  >&nbsp;&nbsp;&nbsp;&nbsp;
+<input class="Initials" type="text" placeholder="Initials" required ><br><br>
+<input class="middel" type="text" placeholder="middel" required  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input class="last" type="text" placeholder="last" required  ><br>
+
+<div class="date">
+
+<h2>Date of Birth</h2>
+<input class="birth" type="text" placeholder="mm/dd/yyyy" required   >
+
+<h2>Phone</h><br><br>
+    <input class="Phone" type="text" placeholder="##########" required  >
+    <h2>Home Address</h><br><br>
+        <input class="Home-add" type="text" placeholder="Street Address" required ><br><br>
+        <input class="City" type="text" placeholder="City" required >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="State" type="text" placeholder="State" required ><br><br>
+        <input class="Zip-Code" type="text" placeholder="Zip Code" required >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="Country" type="text" placeholder="Country" required ><br><br>
+
+        <h2>Email</h><br><br>
+            <input class="Email"><br><br>
+            <label for="gander">Please selecti the gander</label>
+           
+               
+            <div class="gander">
+
+                <p> <input type="radio" name="gander" class="select">Male</p> 
+                &nbsp;&nbsp;
+                <p> <input type="radio" name="gander" class="select">Female</p> 
+                &nbsp;&nbsp;
+                
+                <p> <input type="radio" name="gander" class="select">Other</p> 
+                <br><br></div>
+                <p>If you are under 18, Plesse complete the following section</p>
+                <h2>Name of Parent or guarden</h2><br><br>
+                <div class="Free">
+                    <input class="family" type="text" placeholder="first" required >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input class="name" type="text" placeholder="last" required><br><br>
+
+                    <h2>Home Address ( If differenet from yours )</h2>
+
+                    <div class="for">
+
+
+                        <input class="for-1" type="text" placeholder="Street Address" required ><br><br>
+                        <input class="for-2" type="for-2" placeholder="Street Address line-1" required >
+                    
+                    </div>
+                
+            
+            </div>
+
+</div>
+    
+</body>
+</html>
